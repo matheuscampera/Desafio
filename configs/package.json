@@ -1,0 +1,33 @@
+{
+    "name": "minha-aplicacao",
+    "version": "1.0.0",
+    "description": "Aplicação Node.js com CRUD para clientes e produtos",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js",
+        "lint": "eslint ."
+    },
+    "keywords": [
+        "node",
+        "express",
+        "mysql"
+    ],
+    "author": "Seu Nome",
+    "license": "ISC",
+    "dependencies": {
+        "cookie-parser": "^1.4.5",
+        "debug": "^4.3.2",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "http-errors": "^1.8.0",
+        "jade": "^1.11.0",
+        "morgan": "^1.10.0",
+        "mysql2": "^2.3.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.10.0",
+        "eslint-config-google": "^0.14.0",
+        "nodemon": "^2.0.15"
+    }
+}
